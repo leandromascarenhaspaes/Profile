@@ -90,27 +90,23 @@ div.social i:hover {
     justify-content: start;
     width: 60%;
     margin-right: 10%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.897);
     height: 75vh;
     border-radius: 5px;
     
 }
 
-.pages {
+.block {
     float: left;
-    margin: 50px 30px;
+    margin: 20px 30px;
     text-align: center;
+    width: 300px;
 }
 
-.pages img {
+.block img {
     display: flex;
     border-radius: 5px;
     width: 180px;
     margin-top: 5%;
     align-items: center;
-}
-
-.pages a {
-    text-decoration: none;
-    color: lavender;
 }

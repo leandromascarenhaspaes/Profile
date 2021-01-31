@@ -24,7 +24,6 @@ body {
     width: 140px;
     margin-top: 5%;
     object-fit: cover;
-    object-position: 0 -8px;
 }
 
 .center {
