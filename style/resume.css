@@ -110,3 +110,15 @@ div.social i:hover {
     margin-top: 5%;
     align-items: center;
 }
+
+.back a {
+    text-decoration: none;
+    float: right;
+    margin-top: 25vh;
+    color: rgba(255, 255, 255, 0.6);
+    transition: 0.4s;
+}
+
+.back i:hover {
+    color: rgba(255, 255, 255, 1);
+}

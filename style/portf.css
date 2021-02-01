@@ -114,3 +114,15 @@ div.social i:hover {
     text-decoration: none;
     color: lavender;
 }
+
+.back a {
+    text-decoration: none;
+    float: right;
+    margin-top: 25vh;
+    color: rgba(255, 255, 255, 0.6);
+    transition: 0.4s;
+}
+
+.back i:hover {
+    color: rgba(255, 255, 255, 1);
+}
