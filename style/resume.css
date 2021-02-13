@@ -148,6 +148,7 @@ div.social i:hover {
 .back a {
     text-decoration: none;
     float: right;
+    font-size: 20px;
     margin-top: 25vh;
     color: rgba(255, 255, 255, 0.6);
     transition: 0.4s;
