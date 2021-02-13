@@ -103,141 +103,39 @@ div.social i:hover {
     width: 300px;
 }
 
-/* Slills bar animations starts here */
-.block li {
-    margin: 0;
-    list-style: none;
+.block i {
+    font-size: 50px;
     text-align: left;
 }
 
-.bar {
-    background: #353b48;
-    display: block;
-    height: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    border-radius: 3px;
-    overflow: hidden;
-    box-shadow: 0 0 10px #2187e7b3;
+.block p {
+    margin-top: 25px;
 }
 
-.bar span {
-    height: 10px;
+.fa-git-alt {
+    color: #F05133;
+}
+
+.fa-html5 {
+    color: #FA502E;
+}
+
+.fa-css3-alt {
+    color: #2196F3;
+}
+
+.fa-js-square {
+    color: #FFCA28;
+}
+
+.fa-bootstrap {
+    color: #7611F7;
+}
+
+.fa-sass {
+    color: #CC6699;
     float: left;
-    background: #2187e7;
 }
-
-.scrum {
-    width: 90%;
-    animation: scrum 2s;
-}
-
-.git {
-    width: 85%;
-    animation: git 2s;
-}
-
-.mysql {
-    width: 55%;
-    animation: mysql 2s;
-}
-
-.adobexd {
-    width: 30%;
-    animation: adobexd 2s;
-}
-
-.html {
-    width: 90%;
-    animation: html 2s;
-}
-
-.css {
-    width: 70%;
-    animation: css 2s;
-}
-
-.jquery {
-    width: 50%;
-    animation: jquery 2s;
-}
-
-.javascript {
-    width: 70%;
-    animation: javascript 2s;
-}
-
-@keyframes scrum {
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 90%;
-    }
-}
-
-@keyframes git {
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 85%;
-    }
-}
-
-@keyframes mysql {
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 55%;
-    }
-}
-
-@keyframes adobexd {
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 30%;
-    }
-}
-
-@keyframes html {
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 90%;
-    }
-}
-
-@keyframes css {
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 70%;
-    }
-}
-
-@keyframes jquery {
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 50%;
-    }
-}
-
-@keyframes javascript {
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 70%;
-    }
-}
-/* Slills bar animations finish here */
 
 .block img {
     display: flex;
