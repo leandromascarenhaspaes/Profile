@@ -90,9 +90,9 @@ div.social i:hover {
     color: rgba(255, 255, 255, 1);
 }
 
-@media screen and (max-width:780px) {
+@media screen and (max-width:768px) {
     .center {
-        max-width: 90%;  
+        width: 90%;  
     }
 }
 
