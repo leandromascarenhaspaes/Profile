@@ -89,3 +89,9 @@ div.social i {
 div.social i:hover {
     color: rgba(255, 255, 255, 1);
 }
+
+@media screen and (min-width:768px) {
+    .center {
+        width: 80%;
+    }
+}
