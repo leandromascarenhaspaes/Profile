@@ -128,7 +128,7 @@ div.social i:hover {
     color: rgba(255, 255, 255, 1);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 860px) {
     .center {
         display: none;
     }
