@@ -97,5 +97,9 @@ div.social i:hover {
         margin: 50px 10px 10px 10px;
         height: 85vh;  
     }
+
+    .content h2, p {
+        font-size: 28px;
+    }
 }
 
