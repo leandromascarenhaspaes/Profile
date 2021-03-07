@@ -127,3 +127,41 @@ div.social i:hover {
 .back i:hover {
     color: rgba(255, 255, 255, 1);
 }
+
+@media (max-width: 650px) {
+    .center {
+        display: none;
+    }
+    
+    .aside {
+        width: 90%;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .title h3 {
+        font-size: 1.2rem;
+    }
+
+    .pages {
+        margin: 10px;
+    }
+
+    .pages p {
+        font-size: 1rem;
+        margin-right: 35px;
+        color: chocolate;
+        font-weight: 700;
+        float: left;
+    }
+
+    .pages img {
+        display: none;
+    }
+
+    .back a {
+        font-size: 25px;
+        margin-top: 1rem;
+        
+    }
+}
