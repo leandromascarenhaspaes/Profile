@@ -21,6 +21,24 @@
     right: 0;
 }
 
+.fa-home {
+    width: 35px;
+    height: 35px;
+    position: fixed;
+    top: 30px;
+    right: 240px;
+    cursor: pointer;
+    color: rgb(233, 224, 217);
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.fa-home:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
 .fa-globe {
     width: 35px;
     height: 35px;
@@ -35,7 +53,7 @@
     justify-content: space-around;
 }
 
-.fa-globe-americas:hover {
+.fa-globe:hover {
     color: rgba(255, 255, 255, 1);
 }
 
