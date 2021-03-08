@@ -157,3 +157,54 @@ div.social i:hover {
 .back i:hover {
     color: rgba(255, 255, 255, 1);
 }
+
+@media (max-width: 860px) {
+    .center {
+        display: none;
+    }
+
+    .aside {
+        min-width: 280px;
+        width: 90%;
+        height: 85vh;
+        margin-top: 40px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .content h3 {
+        margin-top: 2px;
+    }
+
+    .title h3 {
+        font-size: 1.2rem;
+    }
+
+    .block {
+        margin: 10px;
+    }
+
+    .block p {
+        font-size: 0.6rem;
+        margin-top: 10px;
+        color: chocolate;
+        font-weight: 100;
+        float: center;
+        text-align: justify;
+    }
+
+    .fa-github, .fa-figma {
+        color: white;
+    }
+
+    .block p i {
+        font-size: 25px;
+        letter-spacing: 15px;
+    }
+
+    .back a {
+        font-size: 25px;
+        margin-top: 1rem;
+        
+    }
+}
