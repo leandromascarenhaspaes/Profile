@@ -98,18 +98,21 @@ div.social i:hover {
 
 .block {
     float: left;
-    margin: 20px 30px;
+    margin: 20px 15px;
     text-align: center;
-    width: 300px;
+    width: 340px;
+    height: 180px;
 }
 
 .block i {
-    font-size: 50px;
+    font-size: 45px;
     text-align: left;
 }
 
 .block p {
-    margin-top: 25px;
+    width: 320px;
+    margin-top: 15px;
+    text-align: justify;
 }
 
 .fa-git-alt {
@@ -134,7 +137,6 @@ div.social i:hover {
 
 .fa-sass {
     color: #CC6699;
-    float: left;
 }
 
 .block img {
@@ -163,6 +165,10 @@ div.social i:hover {
         display: none;
     }
 
+    .title h1 {
+        font-size: 0.8rem;
+    }
+
     .aside {
         min-width: 280px;
         width: 90%;
@@ -182,11 +188,15 @@ div.social i:hover {
 
     .block {
         margin: 10px;
+        height: 110px;
+    }
+
+    .block h3 {
+        font-size: 0.7rem;
     }
 
     .block p {
         font-size: 0.6rem;
-        margin-top: 10px;
         color: chocolate;
         font-weight: 300;
         float: center;
