@@ -22,11 +22,11 @@
 }
 
 .fa-home {
+    position: absolute;
     width: 35px;
     height: 35px;
-    position: fixed;
     top: 30px;
-    right: 240px;
+    padding-left: 10%;
     cursor: pointer;
     color: rgb(233, 224, 217);
     font-size: 30px;
