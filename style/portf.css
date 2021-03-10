@@ -128,7 +128,45 @@ div.social i:hover {
     color: rgba(255, 255, 255, 1);
 }
 
-@media (max-width: 860px) {
+/* Responsive to cellphones */
+@media (max-width: 420px) {
+    .center {
+        display: none;
+    }
+    
+    .aside {
+        width: 90%;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .pages {
+        margin: 10px;
+    }
+
+    .pages p {
+        font-size: 1rem;
+        width: 200px;
+        color: chocolate;
+        font-weight: 700;
+        text-align: left;
+        padding-top: 15px;
+        float:left;
+    }
+
+    .pages img {
+        display: none;
+    }
+
+    .back a {
+        font-size: 25px;
+        margin-top: 1rem;
+        
+    }
+}
+
+/* Responsive to tablets */
+@media (max-width: 768px) {
     .center {
         display: none;
     }
@@ -150,18 +188,12 @@ div.social i:hover {
     .pages p {
         font-size: 1rem;
         margin-right: 35px;
-        color: chocolate;
         font-weight: 700;
-        float: left;
-    }
-
-    .pages img {
-        display: none;
+        float: center;
     }
 
     .back a {
-        font-size: 25px;
-        margin-top: 1rem;
-        
+        font-size: 30px;
+        padding-top: 13rem;
     }
 }
