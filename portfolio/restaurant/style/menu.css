@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Aleo', serif;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+.folder_menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 53%;
+}
