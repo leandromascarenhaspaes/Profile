@@ -98,16 +98,14 @@ div.social i:hover {
 
 .pages {
     float: left;
-    margin: 50px 30px;
+    margin: 50px 30px 5px;
     text-align: center;
 }
 
 .pages img {
-    display: flex;
     border-radius: 5px;
-    width: 180px;
-    margin-top: 5%;
-    align-items: center;
+    max-width: 180px;
+    height: 90px;
 }
 
 .pages a {

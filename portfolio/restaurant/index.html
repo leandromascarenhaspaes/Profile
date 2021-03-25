@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/favicon-16x16.png" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://kit.fontawesome.com/39a47c01da.js" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Salute Pizzeria</title>
+</head>
+<body>
+    <header>
+       <div class="flag" id="flag">
+           <div class="flagred"></div>
+           <div class="flaggreen"></div>
+       </div>
+       <nav class="navbar">
+            <img src="./img/logo.png" alt="logo">
+            <label for="toggle">&#9776</label>
+        <input type="checkbox" id="toggle"/>
+        <div class="menu">
+            <a href="#front_store">Home</a>
+            <a href="#menu_rest">About Us</a>
+            <a href="#menu_description">Menu</a>
+            <a href="#about">Our Space</a>
+            <a href="#footnote">Contact</a>
+            <a href="https://www.ifood.com.br/" class="order" target="blank">Order Online</a>
+        </div>
+       </nav> 
+    </header>
+    
+    <article>
+        <div class="front_store" id="front_store">
+
+        </div>
+
+        <div class="menu_rest" id="menu_rest">
+            <div class="menu_content">
+                <div class="menu_title">
+                    <h1>Why our Napoletana Pizzas are so special?</h1>
+                </div>
+                <div class="pizza_img">
+                    <img src="./img/napolitan_pizza4.png" alt="pizza image">
+                </div>
+                <div class="pizza_content">
+                    <p>
+                        The Napoletana Pizzas were listed by UNESCO as an Intangible and Cultural Heritage of Humanity and follow the strict rules of the Italian STG (Specilità Tradizionale Garantita).
+                        This means that we produce pizzas in a very special way, with a unique flavor and full of lightness.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="menu_description" id="menu_description">
+            <div class="side_pizza">
+                <img src="./img/napolitan_pizza0.png" alt="">
+            </div>
+            <div class="txt_sd_pizza">
+                <div class="recipe">
+                    <p>Made only of Italian top flour 00, water, yeast, salt, time, and a lot of passion, our dough rests and ferments for at least 48 hours, that's why so much flavor and lightness. To maintain its unique characteristics, it is roasted in a wood-fired Napoletano oven that reaches 896°F (480°C), which leaves my edges full of Leopardatas (black spots on the edges).</p>
+                    
+                </div>
+                <div class="button_menu">
+                    <a href="menu.html"><button type="submit">MENU</button></a>     
+                </div>
+            </div>   
+        </div> 
+        <div class="about" id="about">
+            <div class="wrapper">
+                <div class="carousel owl-carousel">
+                    <div class="card card-1">P</div>
+                    <div class="card card-2">I</div>
+                    <div class="card card-3">Z</div>
+                    <div class="card card-4">Z</div>
+                    <div class="card card-5">A</div>
+                    <div class="card card-6">S</div>
+                </div>
+            </div>
+        </div>
+    </article>
+    
+    <footer>
+        <div class="footnote" id="footnote">
+            <p class="social_media">
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram" title="Instagram"></i></a>
+                <a href="http://www.facebook.com"><i class="fab fa-facebook-square" title="Facebook"></i></a>
+                <a href="https://www.tripadvisor.com.br/"><i class="fab fa-tripadvisor" title="Tripadvisor"></i></a>
+                <a href="mailto:contact@salutepizzeria.com"><i class="far fa-envelope" title="e-mail"></i></a>
+            </p>   
+            <p class="address">
+                2000 Robson Street, Vancouver BC, Canada V6G 1C9
+            </p>
+            <p class="fone">
+                Reserve a table: <a href="tel:+160445874875"> (604) 4587-4875</a>  or <a href="mailto:contact@salutepizzeria.com">Click Here</a>
+            </p>
+            <p class="rights">
+                &copy; 2021 - by Leandro Mascarenhas - Taste from Italy.
+            </p>  
+        </div>
+    </footer>
+
+    <script>
+        $(".carousel").owlCarousel({
+         margin: 10,
+         loop: true,
+         autoplay: true,
+         autoplayTimeout: 5000, //2000ms = 2s
+         autoplayHoverPause: true,
+         responsive: {
+             0:{
+                 items: 1,
+                 nav: false
+             },
+             600:{
+                 items: 2,
+                 nav: false
+             },
+             1200:{
+                 items: 3,
+                 nav: false
+             },
+         }
+        });
+     </script>
+
+</body>
+</html>
