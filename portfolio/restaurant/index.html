@@ -5,36 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./img/favicon-16x16.png" type="image/x-icon">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <script src="https://kit.fontawesome.com/39a47c01da.js" crossorigin="anonymous">
-    </script>
+    <title>Home - Salute Pizzeria</title>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="./style/main.css">
     <link rel="stylesheet" href="./style/style.css">
-    <title>Salute Pizzeria</title>
+    
 </head>
 <body>
+    <!-- Header using ./style/main.css -->
     <header>
        <div class="flag" id="flag">
            <div class="flagred"></div>
            <div class="flaggreen"></div>
-       </div>
-       <nav class="navbar">
-            <img src="./img/logo.png" alt="logo">
+        </div>
+        <nav class="navbar">
+            <a href="index.html#front_store"><img src="./img/logo.png" alt="logo"></a>
             <label for="toggle">&#9776</label>
         <input type="checkbox" id="toggle"/>
         <div class="menu">
             <a href="#front_store">Home</a>
-            <a href="#menu_rest">About Us</a>
+            <a href="#menu_rest">About</a>
             <a href="#menu_description">Menu</a>
-            <a href="#about">Our Space</a>
+            <a href="#about">Restaurant</a>
             <a href="#footnote">Contact</a>
             <a href="https://www.ifood.com.br/" class="order" target="blank">Order Online</a>
         </div>
        </nav> 
     </header>
     
+    <!-- Article using ./style/style.css -->
     <article>
         <div class="front_store" id="front_store">
 
@@ -84,6 +85,7 @@
         </div>
     </article>
     
+    <!-- Footer using ./style/main.css -->
     <footer>
         <div class="footnote" id="footnote">
             <p class="social_media">
@@ -103,6 +105,11 @@
             </p>  
         </div>
     </footer>
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://kit.fontawesome.com/39a47c01da.js" crossorigin="anonymous"></script>
 
     <script>
         $(".carousel").owlCarousel({
