@@ -144,6 +144,10 @@ div.social i:hover {
     color: #CC6699;
 }
 
+.fa-wordpress {
+    color: #00749C;
+}
+
 .back a {
     text-decoration: none;
     float: right;
