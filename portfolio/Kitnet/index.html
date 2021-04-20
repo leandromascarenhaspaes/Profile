@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Pajuçara - Maceió</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style/style.css">
+
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <a href="https://airbnb.com/h/pajucara" title="Make a reservation" target="_blank"><h2 class="logo"><i class="fab fa-airbnb"></i> Faça sua Reserva</h2></a>
+            <div class="toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </header>
+
+        <video src="./img/beachvideo.mp4" muted loop autoplay></video>
+
+        <div class="overlay"></div>
+
+        <div class="text">
+            <h2>momentos inesquecíveis</h2>
+            <h3>Visite Alagoas</h3>
+            <p>Venha conhecer a Costa dos Corais, também conhecido como o Caribe Brasileiro.</p>
+        </div>
+
+        <ul class="social">
+            <li><a href="https://airbnb.com/h/pajucara" target="_blank"><i class="fab fa-airbnb"></i></a></li>
+            <li><a href="https://www.instagram.com/airbnbmaceio/" target="_blank"><i class="fab fa-instagram" title="Instagram"></i></a></li>
+        </ul>
+    </section>
+
+    <!-- Side Menu active by toggle icon -->
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="beaches.html" title="Beaches"><i class="fas fa-umbrella-beach"></i> Praias</a></li>
+            <li><a href="bars.html" title="Bars"><i class="fas fa-glass-cheers"></i> Bares</a></li>
+            <li><a href="restaurants.html" title="Restaraunts"><i class="fas fa-utensils"></i> Restaurantes</a></li>
+            <li><a href="stores.html" title="Stores"><i class="fas fa-store"></i> Comércio</a></li>
+            <li><a href="angencies.html" title="Rent and agencies"><i class="fas fa-shuttle-van"></i> <i class="fas fa-car-side"></i> Agências e Locadoras</a></li>
+            <li><a href="Interests.html" title="Interesting places"><i class="fas fa-map-marker-alt"></i> Locais de Interesse</a></li>
+            <li><a href="tourstudio.html" title="Explore the Studio"><i class="fas fa-bed"></i> Conheça o Studio</a></li>
+            <li><a href="https://airbnb.com/h/pajucara" title="Make a reservation"><i class="fab fa-airbnb"></i> Faça sua Reserva</a></li>
+        </ul>
+    </div>
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/39a47c01da.js" crossorigin="anonymous"></script>
+
+    <!-- Toggle Menu JS-->
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
+
+</body>
+</html>
