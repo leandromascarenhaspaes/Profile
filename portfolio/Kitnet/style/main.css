@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Configurações de Menu*/
+
+.nav {
+    text-align: left;
+    height: 70px;
+    line-height: 70px;
+    position: relative;
+}
+
+.menu {
+    margin: 0 30px 0 0;
+}
+
+.menu a {
+    clear: right;
+    text-decoration: none;
+    color: #16a082;
+    margin: 0 11px;
+    line-height: 70px;
+    font-size: 20px;
+}
+
+.menu a:hover {
+    color: gray;
+}
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+
+#toggle {
+    display: none;
+}
+
+
+
+/* Configurações de conteúdo */
+
+/* Praias setup top */
+.top_beach {
+    width: 100%;
+    min-height: 80vh;
+    background-image: url('../img/beach1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: initial;
+    color: white;
+}
+
+.top_beach h1 {
+    align-items: center;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 150px;
+    padding-top: 25vh;
+    font-family: 'Caveat', cursive;
+}
+
+/* Bares setup top */
+.top_bars {
+    width: 100%;
+    min-height: 80vh;
+    background-image: url('../img/bars.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: initial;
+    color: white;
+}
+
+.top_bars h1 {
+    align-items: center;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 150px;
+    padding-top: 25vh;
+    font-family: 'Caveat', cursive;
+}
+
+/* Restaurants setup top */
+.top_restaurants {
+    width: 100%;
+    min-height: 80vh;
+    background-image: url('../img/restaurants.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: initial;
+    color: #338dca;
+}
+
+.top_restaurants h1 {
+    align-items: center;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 150px;
+    padding-top: 25vh;
+    font-family: 'Caveat', cursive;
+}
+
+/* Stores setup top */
+.top_stores {
+    width: 100%;
+    min-height: 80vh;
+    background-image: url('../img/stores.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: initial;
+    color: #16a082;
+}
+
+.top_stores h1 {
+    align-items: center;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 150px;
+    padding-top: 25vh;
+    font-family: 'Caveat', cursive;
+}
+
+/* Agencies setup top */
+.top_agency {
+    width: 100%;
+    min-height: 80vh;
+    background-image: url('../img/agency.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: initial;
+    color: #fff;
+}
+
+.top_agency h1 {
+    align-items: center;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 130px;
+    padding-top: 3vh;
+    font-family: 'Caveat', cursive;
+}
+
+/* Agencies setup top */
+.top_interests {
+    width: 100%;
+    min-height: 80vh;
+    background-image: url('../img/interests.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: initial;
+    color: #fff;
+}
+
+.top_interests h1 {
+    align-items: center;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 130px;
+    padding-top: 3vh;
+    font-family: 'Caveat', cursive;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.content {
+    width: 900px;
+    display: flex;
+    align-items: center;
+    vertical-align: initial;
+    justify-content: center;
+}
+
+.img {
+    width: 50%;
+    height: 300px;
+}
+
+.description {
+    padding-top: 50px;
+    width: 50%;
+    height: 300px;
+    color: #338dca;
+}
+
+.fa-map-marked-alt {
+    color: #FF585D;
+    font-size: 30px;
+    transition: .5s ease ;
+}
+
+.fa-map-marked-alt:hover {
+    color: #c2030a;
+}
+
+/* Configurações de rodapé */
+
+.rodape {
+    display: flex;
+    clear: both;
+    background-color: #16a082;
+    color: white;
+    font-size: 12px;
+    height: 60px;
+    align-items: center;
+    vertical-align: middle;
+    justify-content:center;
+}
+
+.rights {
+    padding-right: 400px;
+}
+
+.social_footer {
+    font-size: 20px;
+    letter-spacing: 10px;
+    font-weight: bolder;
+}
+
+.social_footer .fa-instagram {
+    color: #fff;
+}
+
+i.fa-airbnb {
+    color: #FF585D;
+    font-weight: bolder;
+}
+
+@media only screen and (max-width: 1270px) {
+    label {
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+    }
+
+    #toggle:checked + .menu {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .top_beach h1 {
+        font-size: 120px;
+    }
+
+    .top_restaurants h1{
+        font-size: 60px;
+    }
+
+    .top_stores h1 {
+        font-size: 80px;
+    }
+
+    .top_agency h1 {
+        font-size: 80px;
+    }
+
+    .top_interests h1 {
+        font-size: 80px;
+    }
+
+    .img {
+        display: none;
+    }
+
+    .description {
+        height: 550px;
+    }
+
+    .rights {
+        padding: 0;
+    }
+
+    .social_footer {
+        display: none;
+    }
+}

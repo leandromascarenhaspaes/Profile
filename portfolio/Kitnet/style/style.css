@@ -244,6 +244,7 @@ i.fa-airbnb {
 .social_footer {
     font-size: 20px;
     letter-spacing: 10px;
+    font-weight: bolder;
 }
 
 .social_footer .fa-instagram {
@@ -261,5 +262,21 @@ i.fa-airbnb {
 
     .text h3 {
         font-size: 2em;
+    }
+
+    .content {
+        min-height: 140vh;
+    }
+
+    .adv {
+        display: none;
+    }
+
+    .rights {
+        padding: 0;
+    }
+
+    .social_footer {
+        display: none;
     }
 }
