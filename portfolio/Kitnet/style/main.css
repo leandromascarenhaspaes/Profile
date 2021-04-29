@@ -200,13 +200,13 @@ label {
 }
 
 .fa-map-marked-alt {
-    color: #FF585D;
+    color: #338dca;
     font-size: 30px;
     transition: .5s ease ;
 }
 
 .fa-map-marked-alt:hover {
-    color: #c2030a;
+    color: #21608a;
 }
 
 /* Configurações de rodapé */
