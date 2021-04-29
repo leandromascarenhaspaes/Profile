@@ -101,7 +101,7 @@ label {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: initial;
-    color: #338dca;
+    color: #fff;
 }
 
 .top_restaurants h1 {
@@ -121,7 +121,7 @@ label {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: initial;
-    color: #16a082;
+    color: #338dca;
 }
 
 .top_stores h1 {
@@ -129,7 +129,6 @@ label {
     vertical-align: middle;
     text-align: center;
     font-size: 150px;
-    padding-top: 25vh;
     font-family: 'Caveat', cursive;
 }
 
