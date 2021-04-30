@@ -177,7 +177,21 @@ i.fa-airbnb {
 }
 
 .content {
-    height: 100vh;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.img {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.img img {
+    padding-top: 40px;
+    border-radius: 50%;
+    align-items: center;
 }
 
 .content h1 {
@@ -256,6 +270,10 @@ i.fa-airbnb {
         padding: 40px;
     }
 
+    .img img {
+        height: 300px;
+    }
+
     .text h2 {
         font-size: 3em;
     }
@@ -266,6 +284,10 @@ i.fa-airbnb {
 
     .content {
         min-height: 140vh;
+    }
+
+    .content h1 {
+        padding-top: 40px;
     }
 
     .adv {
