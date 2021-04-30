@@ -186,10 +186,11 @@ i.fa-airbnb {
     align-items: center;
     justify-content: center;
     display: flex;
+    padding-top: 40px;
 }
 
 .img img {
-    padding-top: 40px;
+    
     border-radius: 50%;
     align-items: center;
 }
@@ -271,7 +272,8 @@ i.fa-airbnb {
     }
 
     .img img {
-        height: 300px;
+        
+        height: 250px;
     }
 
     .text h2 {

@@ -195,8 +195,53 @@ label {
 .description {
     padding-top: 50px;
     width: 50%;
-    height: 300px;
+    min-height: 300px;
     color: #338dca;
+}
+
+.description h3 {
+    font-size: 22px;
+}
+
+.description h4 {
+    margin-bottom: 25px;
+}
+
+.description h5 {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    text-align: left;
+}
+
+.description p {
+    text-align: justify;
+    padding: 10px;
+}
+
+.description .location {
+    text-align: center;
+    letter-spacing: 20px;
+}
+
+.description .fa-instagram {
+    color: #338dca;
+    font-size: 30px;
+    transition: .5s ease ;
+}
+
+.description .fa-instagram:hover {
+    color: #21608a;
+}
+
+.fa-globe-americas {
+    color: #338dca;
+    font-size: 30px;
+    transition: .5s ease ;
+}
+
+.fa-globe-americas:hover {
+    color: #21608a;
 }
 
 .fa-map-marked-alt {
@@ -292,7 +337,8 @@ i.fa-airbnb {
     }
 
     .description {
-        height: 550px;
+        border-color: #338dca;
+        border-bottom-style: solid;
     }
 
     .rights {
