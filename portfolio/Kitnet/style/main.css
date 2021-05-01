@@ -222,6 +222,7 @@ label {
 .description p {
     text-align: justify;
     padding: 10px;
+    font-size: 15px;
 }
 
 .description .location {
