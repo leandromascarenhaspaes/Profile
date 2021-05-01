@@ -179,12 +179,17 @@ label {
     align-items: center;
     text-align: center;
 }
+
 .content {
     width: 900px;
     display: flex;
     align-items: center;
     vertical-align: initial;
     justify-content: center;
+}
+
+.img_resp {
+    display: none;
 }
 
 .img {
@@ -336,9 +341,15 @@ i.fa-airbnb {
         display: none;
     }
 
+    .img_resp {
+        display:block;
+        max-width: 310px;
+    }
+
     .description {
         border-color: #338dca;
         border-bottom-style: solid;
+        width: 85%;
     }
 
     .rights {
