@@ -265,7 +265,7 @@ label {
 .rodape {
     display: flex;
     clear: both;
-    background-color: #16a082;
+    background: linear-gradient(0deg, rgba(6,80,72,1) 0%, rgba(22,160,130,1) 47%, rgba(2,214,167,1) 92%);
     color: white;
     font-size: 12px;
     height: 60px;
