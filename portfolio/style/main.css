@@ -63,7 +63,7 @@ label {
     background-position: initial;
     color: white;
 }
-
+/*
 .top_beach h1 {
     align-items: center;
     vertical-align: middle;
@@ -72,6 +72,8 @@ label {
     padding-top: 25vh;
     font-family: 'Caveat', cursive;
 }
+*/
+
 
 /* Bares setup top */
 .top_bars {
@@ -84,33 +86,15 @@ label {
     color: white;
 }
 
-.top_bars h1 {
-    align-items: center;
-    vertical-align: middle;
-    text-align: center;
-    font-size: 150px;
-    padding-top: 25vh;
-    font-family: 'Caveat', cursive;
-}
-
 /* Restaurants setup top */
 .top_restaurants {
     width: 100%;
     min-height: 80vh;
-    background-image: url('../img/restaurants.jpg');
+    background-image: url('../img/restaurants2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: initial;
-    color: #fff;
-}
-
-.top_restaurants h1 {
-    align-items: center;
-    vertical-align: middle;
-    text-align: center;
-    font-size: 150px;
-    padding-top: 25vh;
-    font-family: 'Caveat', cursive;
+    color: rgb(236, 253, 2);
 }
 
 /* Stores setup top */
@@ -124,14 +108,6 @@ label {
     color: #338dca;
 }
 
-.top_stores h1 {
-    align-items: center;
-    vertical-align: middle;
-    text-align: center;
-    font-size: 150px;
-    font-family: 'Caveat', cursive;
-}
-
 /* Agencies setup top */
 .top_agency {
     width: 100%;
@@ -143,16 +119,8 @@ label {
     color: #fff;
 }
 
-.top_agency h1 {
-    align-items: center;
-    vertical-align: middle;
-    text-align: center;
-    font-size: 130px;
-    padding-top: 3vh;
-    font-family: 'Caveat', cursive;
-}
 
-/* Agencies setup top */
+/* Interests setup top */
 .top_interests {
     width: 100%;
     min-height: 80vh;
@@ -163,13 +131,8 @@ label {
     color: #fff;
 }
 
-.top_interests h1 {
-    align-items: center;
-    vertical-align: middle;
-    text-align: center;
-    font-size: 130px;
-    padding-top: 3vh;
-    font-family: 'Caveat', cursive;
+section {
+    background-color: #338eca0e;
 }
 
 .container {
@@ -178,6 +141,8 @@ label {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .content {
@@ -186,6 +151,8 @@ label {
     align-items: center;
     vertical-align: initial;
     justify-content: center;
+    box-shadow:0px 0px 15px #338eca36;
+
 }
 
 .img_resp {
@@ -202,6 +169,7 @@ label {
     width: 50%;
     min-height: 300px;
     color: #338dca;
+    
 }
 
 .description h3 {
@@ -279,9 +247,9 @@ label {
 }
 
 .social_footer {
-    font-size: 20px;
+    font-size: 30px;
     letter-spacing: 10px;
-    font-weight: bolder;
+    font-weight: 900;
 }
 
 .social_footer .fa-instagram {
