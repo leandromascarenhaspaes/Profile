@@ -286,24 +286,35 @@ i.fa-airbnb {
 }
 
 @media only screen and (max-width: 900px) {
-    .top_beach h1 {
-        font-size: 120px;
+    
+    .top_beach {
+        width: 100%;
+        min-height: 20vh;
     }
 
-    .top_restaurants h1{
-        font-size: 60px;
+    .top_bars {
+        width: 100%;
+        min-height: 20vh;
     }
 
-    .top_stores h1 {
-        font-size: 80px;
+    .top_restaurants {
+        width: 100%;
+        min-height: 20vh;
     }
 
-    .top_agency h1 {
-        font-size: 80px;
+    .top_stores {
+        width: 100%;
+        min-height: 20vh;
     }
 
-    .top_interests h1 {
-        font-size: 80px;
+    .top_agency {
+        width: 100%;
+        min-height: 20vh;
+    }
+
+    .top_interests {
+        width: 100%;
+        min-height: 20vh;
     }
 
     .img {
