@@ -289,12 +289,13 @@ i.fa-airbnb {
 
 @media only screen and (max-width: 900px) {
     .nav {
-        height: 70;
+        height: 50;
         background-color: rgba(0, 0, 0, 0.356);
     }
 
     label {
         color: white;
+        font-weight: 600;
     }
     .top_beach {
         width: 100%;
@@ -305,28 +306,28 @@ i.fa-airbnb {
 
     .top_bars {
         width: 100%;
-        min-height: 20vh;
+        min-height: 30vh;
         margin-top: -70px;
         z-index: -1;
     }
 
     .top_restaurants {
         width: 100%;
-        min-height: 20vh;
+        min-height: 30vh;
         margin-top: -70px;
         z-index: -1;
     }
 
     .top_stores {
         width: 100%;
-        min-height: 20vh;
+        min-height: 30vh;
         margin-top: -70px;
         z-index: -1;
     }
 
     .top_agency {
-        width: 100%;
-        min-height: 20vh;
+        
+        min-height: 30vh;
         margin-top: -70px;
         z-index: -1;
     }
