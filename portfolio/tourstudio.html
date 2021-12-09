@@ -5,22 +5,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/main.css">
-    <title>Conheça o Studio - Studio Pajuçara</title>
+    <link rel="stylesheet" href="./newgallery/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
+    <title>Galeria - Studio Pajuçara</title>
 </head>
 <body>
-    <body>
-        <div class="content">
-            <h1>Conheça o Studio</h1>
+    <!-- Menu -->
+    <header>
+        <div class="nav">
+            <label for="toggle">&#9776</label>
+            <input type="checkbox" id="toggle"/>
+            <div class="menu">
+                <a href="index.html" class="portif">Home</a>
+                <a href="beaches.html" class="profile">Praias</a>
+                <a href="bars.html" class="contact">Bares</a>
+                <a href="restaurants.html" class="portif">Restaurantes</a>
+                <a href="stores.html" class="profile">Comércio</a>
+                <a href="angencies.html" class="contact">Agências e Locadoras</a>
+                <a href="Interests.html" class="portif">Locais de Interesse</a>
+                <a href="tourstudio.html" class="profile">Studio</a>
+                <a href="https://airbnb.com/h/pajucara" class="contact" target="_blank"><i class="fab fa-airbnb"></i> Faça sua Reserva</a>
+            </div>    
         </div>
+    </header>
     
-        <footer class="rodape">
-            <div class="rights">Copyright &copy; 2020-2021 - Powered by Leandro Mascarenhas</div>
-            <div class="social_footer">
-                <a href="https://airbnb.com/h/pajucara" target="_blank"><i class="fab fa-airbnb"></i></a>
-                <a href="https://www.instagram.com/airbnbmaceio/" target="_blank"><i class="fab fa-instagram" title="Instagram"></i></a>
+    <!-- Content -->
+    <section>
+        <div class="room-description">  
+            <div class="overlay"></div>
+        </div>
+            
+        <div class="room-gallery">
+            <img src="./newgallery/img/pic01-big.jpg" class="gallery-highlight" alt="">
+            <div class="room-preview">
+                <img src="./newgallery/img/pic01-small.jpg" class="room-active" alt="">
+                <img src="./newgallery/img/pic02-small.jpg" alt="">
+                <img src="./newgallery/img/pic03-small.jpg" alt="">
+                <img src="./newgallery/img/pic04-small.jpg" alt="">
             </div>
+            <div class="room-preview">
+                <img src="./newgallery/img/pic05-small.jpg" alt="">
+                <img src="./newgallery/img/pic06-small.jpg" alt="">
+                <img src="./newgallery/img/pic07-small.jpg" alt="">
+                <img src="./newgallery/img/pic08-small.jpg" alt="">
+            </div>
+            <div class="room-preview">
+                <img src="./newgallery/img/pic09-small.jpg" alt="">
+                <img src="./newgallery/img/pic10-small.jpg" alt="">
+                <img src="./newgallery/img/pic11-small.jpg" alt="">
+                <img src="./newgallery/img/pic12-small.jpg" alt="">
+            </div>
+            <div class="room-preview">
+                <img src="./newgallery/img/pic13-small.jpg" alt="">
+                <img src="./newgallery/img/pic14-small.jpg" alt="">
+                <img src="./newgallery/img/pic15-small.jpg" alt="">
+                <img src="./newgallery/img/pic16-small.jpg" alt="">
+            </div>
+            <div class="room-preview">
+                <img src="./newgallery/img/pic17-small.jpg" alt="">
+                <img src="./newgallery/img/pic18-small.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="rodape">
+        <div class="rights">Copyright &copy; 2020-2021 - Powered by Leandro Mascarenhas</div>
+        <div class="social_footer">
+            <a href="https://airbnb.com/h/pajucara" target="_blank"><i class="fab fa-airbnb"></i></a>
+            <a href="https://www.instagram.com/airbnbmaceio/" target="_blank"><i class="fab fa-instagram" title="Instagram"></i></a>
+        </div>
     </footer>
     
+    <!-- Javascript Gallery -->
+    <script src="./newgallery/app.js"></script>
+
     <!-- Fontawesome -->
     <script src="https://kit.fontawesome.com/39a47c01da.js" crossorigin="anonymous"></script>
 </body>
