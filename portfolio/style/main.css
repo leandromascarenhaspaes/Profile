@@ -201,7 +201,7 @@ section {
 }
 
 .description h4 {
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
 .description h5 {
@@ -216,6 +216,8 @@ section {
     padding: 10px;
     font-size: 15px;
 }
+
+/* Configuração dos ícones */
 
 .description .location {
     text-align: center;
@@ -404,3 +406,10 @@ i.fa-airbnb {
         display: none;
     }
 }
+
+@-moz-document url-prefix() { /* Firefox Hack :( */
+    .star-icon {
+      font-size: 50px;
+      line-height: 34px;
+    }
+  }
